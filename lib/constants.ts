@@ -68,3 +68,70 @@ export const sideBarRoutes = [
     color: "text-indigo-500"
 },
 ]
+
+export const dashboardTools = [
+    
+    {
+    label: "Software Developer",
+    icon: Terminal,
+    href: "/software-developer",
+    color: "text-indigo-500",
+    bgColor: "text-indigo-500/10"
+},
+    {
+    label: "Chef",
+    icon: Utensils,
+    href: "/chef",
+    color: "text-indigo-500",
+    bgColor: "text-indigo-500/10"
+},
+    {
+    label: "Psychologist",
+    icon: BrainCog,
+    href: "/psychologist",
+    color: "text-indigo-500",
+    bgColor: "text-indigo-500/10"
+},
+    {
+    label: "Accountant",
+    icon: Calculator,
+    href: "/accountant",
+    color: "text-indigo-500",
+    bgColor: "text-indigo-500/10"
+},
+    {
+    label: "Lawyer",
+    icon: Scale,
+    href: "/lawyer",
+    color: "text-indigo-500",
+    bgColor: "text-indigo-500/10"
+},
+    {
+    label: "Mechanical Engineer",
+    icon: Cog,
+    href: "/mechanical-engineer",
+    color: "text-indigo-500",
+    bgColor: "text-indigo-500/10"
+},
+    {
+    label: "Teacher",
+    icon: GraduationCap,
+    href: "/teacher",
+    color: "text-indigo-500",
+    bgColor: "text-indigo-500/10"
+},
+    {
+    label: "Graphic Designer",
+    icon: Ratio,
+    href: "/graphic-designer",
+    color: "text-indigo-500",
+    bgColor: "text-indigo-500/10"
+},
+    {
+    label: "Electrician",
+    icon: PlugZap,
+    href: "/electrician",
+    color: "text-indigo-500",
+    bgColor: "text-indigo-500/10"
+}
+]
