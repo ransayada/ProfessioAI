@@ -35,8 +35,15 @@ const ConversationPage = () => {
       };
       const newMessage = [...messages, userMessage];
 
-      const response = await axios.post("/api/conversation");
+      const response = await axios.post("/api/conversation", {
+        messages: newMessage,
+      });
+
+      setMessages((current) => [...current, userMessage, response.data]);
+
+      form.reset();
     } catch (error: any) {
+      //TODO: Open PRO Modal
       console.log(error);
     } finally {
       router.refresh();
@@ -84,7 +91,13 @@ const ConversationPage = () => {
               </form>
             </Form>
           </div>
-          <div className="space-y-4 mt-4">Messages Content</div>
+          <div className="space-y-4 mt-4">
+            <div className="flex flex-col-reverse gap-y-4">
+              {messages.map((message) => (
+                <div key={message.content}>{message.content}</div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
       <AttentionFooter />
