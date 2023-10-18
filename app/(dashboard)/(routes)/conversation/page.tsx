@@ -29,6 +29,13 @@ const ConversationPage = () => {
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
+      const userMessage: ChatCompletionRequestMessage = {
+        role: "user",
+        content: values.prompt,
+      };
+      const newMessage = [...messages, userMessage];
+
+      const response = await axios.post("/api/conversation");
     } catch (error: any) {
       console.log(error);
     } finally {

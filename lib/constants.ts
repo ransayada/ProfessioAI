@@ -1,10 +1,16 @@
-import { LayoutDashboard , Terminal, Building2,Utensils,BrainCog,Calculator,Scale,Cog,GraduationCap, Ratio, PlugZap, Settings } from "lucide-react";
+import { LayoutDashboard , Terminal, Building2,Utensils,BrainCog,Calculator,Scale,Cog,GraduationCap, Ratio, PlugZap, Settings, TestTube } from "lucide-react";
 
 export const sideBarRoutes = [
     {
     label: "Dashboard",
     icon: LayoutDashboard,
     href: "/dashboard",
+    color: "text-indigo-500"
+},
+    {
+    label: "Test",
+    icon: TestTube,
+    href: "/conversation",
     color: "text-indigo-500"
 },
     {
