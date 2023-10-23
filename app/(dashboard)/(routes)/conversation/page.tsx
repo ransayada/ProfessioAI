@@ -15,6 +15,7 @@ import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import { ChatCompletionRequestMessage } from "openai";
 import Empty from "@/components/empty";
+import Loader from "@/components/loader";
 
 const ConversationPage = () => {
   const router = useRouter();
@@ -93,6 +94,11 @@ const ConversationPage = () => {
             </Form>
           </div>
           <div className="space-y-4 mt-4">
+            {true && (
+              <div className="p-9 rounded-lg w-full flex items-center justify-center">
+                <Loader />
+              </div>
+            )}
             {messages.length === 0 && !isLoading && (
               <Empty label="No Test Started" />
             )}
