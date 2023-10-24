@@ -19,7 +19,7 @@ const AttentionFooter = () => {
         qualified electrician or emergency services. For immediate first aid
         mental health support, you can reach ARAN [ער״ן- עזרה ראשונה נפשית] at
         number 1201. <br />
-        <span className="text-emerald-400">
+        <span className="text-indigo-400">
           Thank you for understanding and prioritizing your well-being.
         </span>
       </p>
