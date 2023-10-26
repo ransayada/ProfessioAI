@@ -3,7 +3,7 @@ import axios from "axios";
 import * as z from "zod";
 import AttentionFooter from "@/components/attention-footer";
 import Heading from "@/components/heading";
-import { Construction, GraduationCap } from "lucide-react";
+import { Construction } from "lucide-react";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 
