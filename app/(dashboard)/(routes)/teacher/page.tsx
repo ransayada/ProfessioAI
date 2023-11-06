@@ -81,7 +81,7 @@ const TeacherPage = () => {
                         <Input
                           className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                           disabled={isLoading}
-                          placeholder="Simple toggle button using React hooks."
+                          placeholder="How to solve to equations with two variables?"
                           {...field}
                         />
                       </FormControl>

@@ -80,7 +80,7 @@ const AccountantPage = () => {
                         <Input
                           className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                           disabled={isLoading}
-                          placeholder="a recipe for chocolate cake"
+                          placeholder="how to do Tax on my Bitcoin?"
                           {...field}
                         />
                       </FormControl>

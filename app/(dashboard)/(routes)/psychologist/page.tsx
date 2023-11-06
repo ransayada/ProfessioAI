@@ -80,7 +80,7 @@ const PsychologistPage = () => {
                         <Input
                           className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                           disabled={isLoading}
-                          placeholder="can i get out of the country when im being detained"
+                          placeholder="im in a bad mood due to exam period can you help me ?"
                           {...field}
                         />
                       </FormControl>

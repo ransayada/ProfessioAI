@@ -80,7 +80,7 @@ const MechanicalEngineerPage = () => {
                         <Input
                           className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                           disabled={isLoading}
-                          placeholder="how to shat down the electronics in my house?"
+                          placeholder="which drone is the best for long period of time?"
                           {...field}
                         />
                       </FormControl>

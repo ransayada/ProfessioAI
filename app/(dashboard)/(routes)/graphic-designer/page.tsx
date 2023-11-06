@@ -80,7 +80,7 @@ const GraphicDesignPage = () => {
                         <Input
                           className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                           disabled={isLoading}
-                          placeholder="can i get out of the country when im being detained"
+                          placeholder="Can i get a prompt for an image of a pug dog in a grass field?"
                           {...field}
                         />
                       </FormControl>
