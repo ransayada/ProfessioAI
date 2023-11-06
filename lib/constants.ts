@@ -1,5 +1,7 @@
 import { LayoutDashboard , Terminal, Building2,Utensils,BrainCog,Calculator,Scale,Cog,GraduationCap, Ratio, PlugZap, Settings, TestTube } from "lucide-react";
 
+export const MAX_FREE_COUNTS = 5;
+
 export const sideBarRoutes = [
     {
     label: "Dashboard",
